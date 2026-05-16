@@ -1,4 +1,4 @@
-import { ProductsByCategoryProvider } from "../context/productsByCategoryContext";
+import { ProductsByCategoryProvider } from "../context/ProductsByCategoryContext";
 import Categories from "../features/categories/Categories";
 
 import Products from "../features/products/Products";
