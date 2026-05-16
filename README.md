@@ -1,6 +1,6 @@
 # Products Task using FakeStore API
 
-- [Try It]()
+- [Try It](https://products-task-nada.netlify.app/)
 
 
 ## How to install and run the code ?
