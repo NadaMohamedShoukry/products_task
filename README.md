@@ -1,16 +1,26 @@
-# React + Vite
+# Products Task using FakeStore API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Try It]()
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## How to install and run the code ?
+- git config url
+- npm install
+- npm run dev
 
-## React Compiler
+## Tools & Libraries:
+- Axios
+- TailwindCSS
+- React Router
+- Heroicons
+- useDebounce
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Used unDraw for images.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Challenges:
+- I faced an issue with passing the category to the product component in a clean architecture that fits the feature-based architecture approatch and separation between UI and bussiness login.
+- After debugging, I realized that the Categories and Products components were siblings in the component tree with HomePage component as their parent. Using "lifting state up" approach would have broken my "seperation of UI and bussiness login" approach.
+- To solve this, I used the React Context to share category between Categories and Products Components.
+------------------------------------------------------------------------------------------------------------------------------------------
+- I faced a challenge while implementing the Search feature because this API didn't provide a dedicated search endpoint. After researching, I implemented a client-side solution successfully. 
