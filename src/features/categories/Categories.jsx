@@ -1,5 +1,5 @@
 import Spinner from "../../components/Spinner";
-import { useProductsByCategoryContext } from "../../context/productsByCategoryContext";
+import { useProductsByCategoryContext } from "../../context/ProductsByCategoryContext";
 import TabMenu from "../../components/TabMenu";
 import useCategories from "./useCategories";
 

@@ -1,7 +1,7 @@
 import ProductCard from "../../components/ProductCard";
 import Spinner from "../../components/Spinner";
 import useProducts from "./useProducts";
-import { useProductsByCategoryContext } from "../../context/productsByCategoryContext";
+import { useProductsByCategoryContext } from "../../context/ProductsByCategoryContext";
 import useProductsByCategory from "./useProductsByCategory";
 
 function Products() {
