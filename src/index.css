@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* 135deg -> create diagonal movement */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4ef 0%, #ece7e2 50%, #f3f4ef 100%);
+
+  /* To make the background fixed while scrolling */
+  background-attachment: fixed;
+}
