@@ -18,7 +18,7 @@ function Search() {
   return (
     <>
       <Searchbar query={query} setQuery={setQuery} />
-      {query && searchedValue.length === 0 ? (
+      {debouncedQuery && searchedValue.length === 0 ? (
         <NotFound />
       ) : (
         <ProductCard products={searchedValue} />
